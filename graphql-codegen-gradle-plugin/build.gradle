@@ -31,7 +31,7 @@ dependencies {
 gradlePlugin {
     plugins {
         graphqlCodegenPlugin {
-            id = 'com.github.jwatral.graphql-codegen'
+            id = 'com.github.kobylynskyi.graphql.codegen'
             displayName = 'GraphQL Java Codegen plugin'
             implementationClass = 'com.kobylynskyi.graphql.codegen.gradle.GraphqlCodegenGradlePlugin'
         }
