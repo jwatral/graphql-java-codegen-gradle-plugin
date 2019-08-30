@@ -8,8 +8,8 @@ repositories {
         url 'https://repo.gradle.org/gradle/libs-releases-local'
     }
     mavenCentral()
-    jcenter()
     maven { url 'https://jitpack.io' }
+    jcenter()
 }
 
 apply plugin: "java"
